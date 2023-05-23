@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PARA RAKESH</title>
+    <!-- <link rel="icon" href="./assets/images/logo.jpg"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+    <script src="https://kit.fontawesome.com/011566f12c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="heading-text">
+                <p>Full Stack developer</p>
+                <h1>Hi, I'm <span>Para Rakesh</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+<!------------------------------ About ---------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./assets/images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a front-end web developer. I can provide clean code and pixel
+                    perfect design. I also make the website more & more interactive with web
+                    animations.I can provide clean code and pixel perfect design. I also make
+                    the website more & more interactive with web animations.A responsive design
+                    makes your website accessible to all users, regardless of their device. . 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Font-End</span><br>HTML CSS JavaScript</li>
+                        <li><span>Data-Base</span><br>SQL,MySQL,Oracle SQL</li>
+                        <li><span>Back-End</span><br>Java,J2EE,Hibernate,Springs</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Sc.(Computer Science)</span><br>In the year 2019-2022 From The Oxford College of science <br> under Bangalore university </li>
+                        <li><span>P.U.C/12<sup>th</sup></span><br>In the year 2017-2019 From Krupanidhi PU college<br> under P.U Board</li>
+                        <li><span>10<sup>th</sup></span><br>In the year 2017 From Bhashyam High School<br> under AP SSC Board</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ services ---------------------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-file-code"></i>
+                <h2>Technology</h2>
+                <p>In this project having login page, home page and navigation bar regarding technologies like AI, Three JS, VR, Robotics, XR and at the ending having a contact us page. <br>
+                    I have done this with HTML5.CSS,JavaScript
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-code"></i>
+                <h2>Laundry Management System Project</h2>
+                <p>In an automated setting, the Laundry Management system allows the laundry and dry-cleaning firm to handle dayto¬day operations, orders, processes, billing, and delivery management.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Clock Format Changer</h2>
+                <p>In this project i have used HTML5,CSS,JavaScript. <br>
+                I have created a clock format changer which changes the 24hrs format to 12hrs format and 12hrs format to 24hrs format.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ portfolio ---------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./assets/images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./assets/images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------------------------contact---------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> rajupara1612@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8497943569</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/para-rakesh-16ra12ju"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/rakeshpara"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.instagram.com/rakesh__para"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./assets/images/PARA_RAKESH_resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Para Rakesh.</p>
+    </div>
+</div>
+  <!-- <script>
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzdOfqfqLAV6fCHGT9UP-DPzBZGkTQDrJ-0OhHxkXs4VbwjKW2acOegkRNHv5eF2nGZiA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> -->
+</body>
+</html>
